@@ -1,15 +1,13 @@
 package com.pawsstay.auth_service.dto;
 
 
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
 @Data
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
+@Setter
 public class OwnerCreateRequest {
     private String email;
     private String name;

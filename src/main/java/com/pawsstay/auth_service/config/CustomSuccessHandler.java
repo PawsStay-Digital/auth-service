@@ -5,7 +5,6 @@ import com.pawsstay.auth_service.dto.OwnerResponse;
 import com.pawsstay.auth_service.util.JwtUtils;
 import com.pawsstay.auth_service.util.OwnerClient;
 import feign.FeignException;
-import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
